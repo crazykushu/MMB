@@ -1,4 +1,5 @@
 #include "mmb.h"
+#include "useful.h"
 #include <ctime>
 #include <random>
 #include <iostream>
@@ -6,17 +7,7 @@
 using namespace std;
 
 
-double sec()
-{
-  return clock() / double(CLOCKS_PER_SEC);
-}
-
-double rng()
-{
-  return rand() / RAND_MAX;
-}
-
-void evaluation(int M, int n)
+void evalloop(int M, int n)
 {
   double c[n][n], a[n][n], b[n][n];
   double runtime [6];

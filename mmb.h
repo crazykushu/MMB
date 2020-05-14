@@ -1,9 +1,7 @@
 #ifndef MMB_H
 #define MMB_H
 
-double sec();
-double rng();
-void evaluation(int M, int n);
+void evalloop(int M, int n);
 
 
 #endif
