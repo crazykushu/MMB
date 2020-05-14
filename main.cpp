@@ -1,6 +1,8 @@
 #include <iostream>
 #include "mmb.h"
 #include "mmbfast.h"
+#include "mmbli.h"
+
 
 using namespace std;
 
@@ -10,5 +12,6 @@ using namespace std;
 int main()
 {
   //evalloop(M, n);
-  evalindex(M, n);
+  //evalindex(M, n);
+  evalli(M, n);
 }

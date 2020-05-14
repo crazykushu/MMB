@@ -3,6 +3,7 @@
 #include <ctime>
 #include <random>
 #include <iostream>
+#include <bits/stdc++.h> 
 
 using namespace std;
 
@@ -163,4 +164,7 @@ void evalindex(int M, int n)
   double stoptime8 = sec();
   runtime[7] = (stoptime8 - starttime8) / M;
   cout << "Current runtime for the ji=ki+jk run is: " << runtime[7] <<  " s" << endl;
+
+  double ratio = *max_element(runtime, runtime + 8) / *min_element(runtime, runtime + 8);
+  cout << "The ratio between worst and best case is: " << ratio << endl;
 }
