@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-  //evalloop(M, n);
-  //evalindex(M, n);
+  evalloop(M, n);
+  evalindex(M, n);
   evalli(M, n);
 }

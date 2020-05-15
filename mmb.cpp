@@ -3,6 +3,7 @@
 #include <ctime>
 #include <random>
 #include <iostream>
+#include <bits/stdc++.h> 
 
 using namespace std;
 
@@ -171,4 +172,5 @@ double starttime4 = sec();
   double stoptime6 = sec();
   runtime[5] = (stoptime6 - starttime6) / M;
   cout << "Current runtime for the kji run is: " << runtime[5] <<  " s" << endl;
+  cout << "The minimum runtime is: " << *min_element(runtime, runtime + 6) << endl;
 }

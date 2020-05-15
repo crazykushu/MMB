@@ -24,9 +24,9 @@ void evalindex(int M, int n)
   double starttime1 = sec();
   for (int m = 0; m < M; m++)
   {
-    for (int k = 0; k < n; k++)
+    for (int j = 0; j < n; j++)
     {
-      for (int j = 0; j < n; j++)
+      for (int k = 0; k < n; k++)
       {
         for (int i = 0; i < n; i++)
         {
@@ -42,9 +42,9 @@ void evalindex(int M, int n)
   double starttime2 = sec();
   for (int m = 0; m < M; m++)
   {
-    for (int k = 0; k < n; k++)
+    for (int j = 0; j < n; j++)
     {
-      for (int j = 0; j < n; j++)
+      for (int k = 0; k < n; k++)
       {
         for (int i = 0; i < n; i++)
         {
@@ -60,9 +60,9 @@ void evalindex(int M, int n)
   double starttime3 = sec();
   for (int m = 0; m < M; m++)
   {
-    for (int k = 0; k < n; k++)
+    for (int j = 0; j < n; j++)
     {
-      for (int j = 0; j < n; j++)
+      for (int k = 0; k < n; k++)
       {
         for (int i = 0; i < n; i++)
         {
@@ -78,9 +78,9 @@ void evalindex(int M, int n)
   double starttime4 = sec();
   for (int m = 0; m < M; m++)
   {
-    for (int k = 0; k < n; k++)
+    for (int j = 0; j < n; j++)
     {
-      for (int j = 0; j < n; j++)
+      for (int k = 0; k < n; k++)
       {
         for (int i = 0; i < n; i++)
         {
@@ -96,11 +96,11 @@ void evalindex(int M, int n)
   double starttime5 = sec();
   for (int m = 0; m < M; m++)
   {
-    for (int k = 0; k < n; k++)
+    for (int j = 0; j < n; j++)
     {
-      for (int i = 0; i < n; i++)
+      for (int k = 0; k < n; k++)
       {
-        for (int j = 0; j < n; j++)
+        for (int i = 0; i < n; i++)
         {
           c[j][i] += a[i][k]*b[k][j];
         }
@@ -114,9 +114,9 @@ void evalindex(int M, int n)
   double starttime6 = sec();
   for (int m = 0; m < M; m++)
   {
-    for (int k = 0; k < n; k++)
+    for (int j = 0; j < n; j++)
     {
-      for (int j = 0; j < n; j++)
+      for (int k = 0; k < n; k++)
       {
         for (int i = 0; i < n; i++)
         {
@@ -132,9 +132,9 @@ void evalindex(int M, int n)
   double starttime7 = sec();
   for (int m = 0; m < M; m++)
   {
-    for (int k = 0; k < n; k++)
+    for (int j = 0; j < n; j++)
     {
-      for (int j = 0; j < n; j++)
+      for (int k = 0; k < n; k++)
       {
         for (int i = 0; i < n; i++)
         {
@@ -150,9 +150,9 @@ void evalindex(int M, int n)
   double starttime8 = sec();
   for (int m = 0; m < M; m++)
   {
-    for (int k = 0; k < n; k++)
+    for (int j = 0; j < n; j++)
     {
-      for (int j = 0; j < n; j++)
+      for (int k = 0; k < n; k++)
       {
         for (int i = 0; i < n; i++)
         {
